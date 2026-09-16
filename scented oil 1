@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AromaEssence - น้ำมันหอมระเหยออแกนิคพรีเมียม</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Prompt:wght@300;500;700&display=swap');
+    body { font-family: 'Prompt', 'Plus Jakarta Sans', sans-serif; }
+    .hero-bg { background: radial-gradient(circle at 10% 20%, #FDFBF7 0%, #E2E2D5 90%); }
+    .card-neo { border: 3px solid #2D3748; box-shadow: 6px 6px 0px #2D3748; transition: all 0.2s ease; }
+    .card-neo:hover { transform: translate(-3px, -3px); box-shadow: 10px 10px 0px #2D3748; }
+  </style>
+</head>
+<body class="hero-bg text-gray-800">
+
+  <!-- Navigation -->
+  <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+    <a href="index.html" class="text-2xl font-extrabold tracking-wider text-green-900">AROMA.</a>
+    <div class="space-x-8 font-medium">
+      <a href="index.html" class="text-green-700 font-bold border-b-2 border-green-700 pb-1">หน้าแรก</a>
+      <a href="services.html" class="hover:text-green-700 transition">บริการ</a>
+      <a href="work.html" class="hover:text-green-700 transition">ผลงาน</a>
+      <a href="process.html" class="hover:text-green-700 transition">ขั้นตอนการผลิต</a>
+      <a href="contact.html" class="hover:text-green-700 transition">ติดต่อเรา</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section (Collage & Large Typography) -->
+  <section class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+    <div class="md:col-span-7 space-y-6">
+      <span class="bg-green-200 text-green-900 px-4 py-1.5 rounded-full font-semibold text-sm border-2 border-gray-800 inline-block shadow-[2px_2px_0px_#2D3748]">100% Certified Organic</span>
+      <h1 class="text-6xl md:text-8xl font-black leading-none text-gray-900">PURE<br><span class="text-green-800">BOTANICAL</span><br>ESSENCE</h1>
+      <p class="text-xl text-gray-700 max-w-md">เติมเต็มพลังชีวิตด้วยกลิ่นบำบัดจากธรรมชาติแท้ ดีไซน์เพื่อไลฟ์สไตล์คนรุ่นใหม่</p>
+      <div class="pt-4">
+        <a href="services.html" class="bg-amber-300 text-gray-900 font-bold text-lg px-8 py-4 rounded-xl card-neo inline-block">เลือกชมผลิตภัณฑ์</a>
+      </div>
+    </div>
+    
+    <!-- Image Collage -->
+    <div class="md:col-span-5 relative h-[480px]">
+      <img src="https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80" class="absolute top-0 right-0 w-64 h-80 object-cover rounded-2xl card-neo rotate-3 hover:rotate-0 transition duration-300" alt="Oil Bottle">
+      <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=80" class="absolute bottom-0 left-0 w-72 h-72 object-cover rounded-2xl card-neo -rotate-6 hover:rotate-0 transition duration-300 z-10" alt="Spa Lavender">
+      <div class="absolute top-1/2 left-10 bg-rose-200 p-4 rounded-xl card-neo z-20 -rotate-3">
+        <p class="font-bold text-sm">✨ 100% Natural Extract</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Highlight Grid -->
+  <section class="bg-amber-100/60 py-20 border-y-4 border-gray-800">
+    <div class="max-w-7xl mx-auto px-8">
+      <h2 class="text-4xl font-black text-center mb-12">คอลเลกชันยอดนิยม</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-emerald-100 p-8 rounded-2xl card-neo">
+          <div class="h-48 rounded-xl bg-cover bg-center mb-6 border-2 border-gray-800" style="background-image: url('https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=600&q=80');"></div>
+          <h3 class="text-2xl font-bold mb-2">Lavender Relief</h3>
+          <p class="text-gray-600 mb-4">ผ่อนคลายความเหนื่อยล้า ช่วยให้การนอนหลับลึกและมีประสิทธิภาพ</p>
+          <a href="services.html" class="font-bold text-green-900 underline">ดูรายละเอียด →</a>
+        </div>
+        <div class="bg-orange-100 p-8 rounded-2xl card-neo">
+          <div class="h-48 rounded-xl bg-cover bg-center mb-6 border-2 border-gray-800" style="background-image: url('https://images.unsplash.com/photo-1512290900676-26c2a48f4134?auto=format&fit=crop&w=600&q=80');"></div>
+          <h3 class="text-2xl font-bold mb-2">Citrus Energy</h3>
+          <p class="text-gray-600 mb-4">กระตุ้นความสดชื่น เพิ่มสมาธิในการทำงานระหว่างวัน</p>
+          <a href="services.html" class="font-bold text-green-900 underline">ดูรายละเอียด →</a>
+        </div>
+        <div class="bg-purple-100 p-8 rounded-2xl card-neo">
+          <div class="h-48 rounded-xl bg-cover bg-center mb-6 border-2 border-gray-800" style="background-image: url('https://images.unsplash.com/photo-1608571423902-eed4a5ad8108?auto=format&fit=crop&w=600&q=80');"></div>
+          <h3 class="text-2xl font-bold mb-2">Deep Forest Blend</h3>
+          <p class="text-gray-600 mb-4">กลิ่นไม้ป่าธรรมชาตินุ่มลึก สร้างบรรยากาศอบอุ่นในบ้าน</p>
+          <a href="services.html" class="font-bold text-green-900 underline">ดูรายละเอียด →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
