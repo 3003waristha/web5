@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Work - AromaEssence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700;900&display=swap');
+    body { font-family: 'Prompt', sans-serif; background-color: #FAF4EB; }
+    .card-neo { border: 3px solid #2D3748; box-shadow: 6px 6px 0px #2D3748; }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+    <a href="index.html" class="text-2xl font-extrabold text-green-900">AROMA.</a>
+    <div class="space-x-8 font-medium">
+      <a href="index.html" class="hover:text-green-700">หน้าแรก</a>
+      <a href="services.html" class="hover:text-green-700">บริการ</a>
+      <a href="work.html" class="text-green-700 font-bold border-b-2 border-green-700 pb-1">ผลงาน</a>
+      <a href="process.html" class="hover:text-green-700">ขั้นตอนการผลิต</a>
+      <a href="contact.html" class="hover:text-green-700">ติดต่อเรา</a>
+    </div>
+  </nav>
+
+  <section class="max-w-7xl mx-auto px-8 py-12">
+    <h1 class="text-6xl font-black mb-8">CLIENT PROJECTS</h1>
+    
+    <!-- Large Collage Portfolio Item -->
+    <div class="bg-amber-200/80 p-8 rounded-3xl card-neo mb-12 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+      <div class="md:col-span-6 space-y-4">
+        <span class="bg-white font-bold px-3 py-1 rounded-full border-2 border-gray-800 text-xs">HOTEL SIGNATURE SCENT</span>
+        <h2 class="text-4xl font-black">The Serenity Resort & Spa</h2>
+        <p class="text-gray-700">สร้างสรรค์กลิ่นป่าฝนผสมชาขาวเพื่อต้อนรับผู้เข้าพัก มอบความรู้สึกสงบ ผ่อนคลาย หรูหราอย่างเป็นธรรมชาติ</p>
+      </div>
+      <div class="md:col-span-6 grid grid-cols-2 gap-4">
+        <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=400&q=80" class="rounded-xl card-neo rotate-2" alt="Project 1">
+        <img src="https://images.unsplash.com/photo-1617897903246-719242758050?auto=format&fit=crop&w=400&q=80" class="rounded-xl card-neo -rotate-2" alt="Project 2">
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
