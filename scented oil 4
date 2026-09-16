@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Process - AromaEssence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;500;700;900&display=swap');
+    body { font-family: 'Prompt', sans-serif; background-color: #EBF4EC; }
+    .card-neo { border: 3px solid #2D3748; box-shadow: 6px 6px 0px #2D3748; }
+  </style>
+</head>
+<body class="text-gray-800">
+
+  <nav class="flex justify-between items-center px-8 py-6 max-w-7xl mx-auto">
+    <a href="index.html" class="text-2xl font-extrabold text-green-900">AROMA.</a>
+    <div class="space-x-8 font-medium">
+      <a href="index.html" class="hover:text-green-700">หน้าแรก</a>
+      <a href="services.html" class="hover:text-green-700">บริการ</a>
+      <a href="work.html" class="hover:text-green-700">ผลงาน</a>
+      <a href="process.html" class="text-green-700 font-bold border-b-2 border-green-700 pb-1">ขั้นตอนการผลิต</a>
+      <a href="contact.html" class="hover:text-green-700">ติดต่อเรา</a>
+    </div>
+  </nav>
+
+  <section class="max-w-5xl mx-auto px-8 py-12">
+    <h1 class="text-6xl font-black mb-12 text-center">OUR PROCESS</h1>
+
+    <div class="space-y-8">
+      <div class="bg-white p-8 rounded-2xl card-neo flex gap-6 items-start">
+        <div class="bg-yellow-300 font-black text-2xl p-4 rounded-xl border-2 border-gray-800">01</div>
+        <div>
+          <h3 class="text-2xl font-bold mb-2">Sustainable Harvesting</h3>
+          <p class="text-gray-600">คัดสรรวัตถุดิบจากฟาร์มออแกนิคหมุนเวียน ไม่ใช้สารเคมีและยากำจัดศัตรูพืชทุกชนิด</p>
+        </div>
+      </div>
+
+      <div class="bg-white p-8 rounded-2xl card-neo flex gap-6 items-start">
+        <div class="bg-green-300 font-black text-2xl p-4 rounded-xl border-2 border-gray-800">02</div>
+        <div>
+          <h3 class="text-2xl font-bold mb-2">Steam Distillation</h3>
+          <p class="text-gray-600">สกัดด้วยไอเย็นความกดอากาศต่ำ เพื่อคงคุณค่าทางบำบัดของพืชพรรณไว้อย่างสมบูรณ์ที่สุด</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
